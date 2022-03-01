@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+}
+img {
+  margin: 1rem;
+}
+.sidebar {
+  background-color: rgb(233, 21, 127);
+}
+.btn {
+  background-color: #9e3de7;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#user{
+    border-radius: 50%;
+}
+.main-content {
+  margin: 4rem;
+}
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+}
+h1 {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-content {
+  width: 50%;
+}
+.list-technologies li::before {
+  content: "\25AA";
+  color: rgb(233, 21, 127);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.list-quantites li::before {
+  content: "\25AA";
+  color: #ff9500;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.list-sidebar {
+  list-style: none;
+  color: #fff;
+}
+.lien {
+  color: #fff;
+  font-family: "system-ui";
+  font-size: 20px;
+  padding: 0.5rem;
+  padding-left: 3rem;
+}
+.lien:hover {
+  color: #000;
+  background-color: #fff;
+}
+#creation {
+  color: #9e3de7;
+  background-color: #fff;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  border: 2px solid #9e3de7;
+  border-radius: 5px;
+  font-size: 14px;
+}
+#candidat {
+  color: #fff;
+  background-color: rgb(87, 20, 87);
+  height: 10%;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+  margin: 3rem;
+}
+#mettreAjour {
+  padding: 0.5em;
+  background-color: #ff9500;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+#archiver{
+    background-color: #D51A52;
+    margin-left: 1rem;
+    border-radius: 10px;
+}
